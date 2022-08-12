@@ -2,3 +2,13 @@
     font-family: 'GlacialIndifference';
     src: url("./assets/fonts/glacial-indifference/GlacialIndifference-Regular.otf") format("opentype");
 }
+
+@font-face {
+    font-family: 'MoonTime';
+    src: url("./assets/fonts/moon-time/FontsFree-Net-MoonTime-Regular-1.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'ArbutusSlab';
+    src: url("./assets/fonts/arbutus-slab/arbutus-slab.regular.ttf")  format("truetype");
+}

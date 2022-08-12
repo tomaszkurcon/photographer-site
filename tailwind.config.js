@@ -12,7 +12,9 @@ module.exports = {
 
       },
       fontFamily: {
-        body:["GlacialIndifference"]
+        body:["ArbutusSlab"],
+        menuFont:["GlacialIndifference"],
+        headerFont:["MoonTime"]
       }
     },
   },
