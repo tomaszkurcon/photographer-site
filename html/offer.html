@@ -1,12 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../src/fonts.css" />
+    <link rel="stylesheet" href="../src/dividerStyles.css" />
+    <link rel="stylesheet" href="../src/general.css" />
     <title>Oferta</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <!-- <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div> -->
+  <body class="bg-primaryColor font-body">
+
+    <div id="menu-bar" class="w-full h-[80px]  flex items-center sticky top-0 z-[1001] bg-overlayColor">
+        <div id="hamburger" class=" rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
+          <div class="w-[50px] h-[4px] bg-white hamburger-bar">    
+          </div>
+        
+        </div>
+      </div>
+
+      <div id="overlay" class="hidden fixed w-screen h-screen  top-[80px] left-0 bg-overlayColor z-[1000]" >
+        <nav id="navigation"
+        class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2"
+      >
+        <ul
+          class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest "
+        >
+          <li
+            class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="../html/offer.html">OFERTA</a>
+          </li>
+          <li
+            class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="">GALERIA</a>
+          </li>
+          <li
+            class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="">STREFA KLIENTA</a>
+          </li>
+        </ul>
+        <ul
+          class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest"
+        >
+          <li
+            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="">VOUCHER</a>
+          </li>
+          <li
+            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="">RECENZJE</a>
+          </li>
+          <li
+            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="">KONTAKT</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+
+
+
+    <section>
+      <div class="max-w-screen-2xl m-auto">
+    <div class="px-2">
+        <div
+          class="flex items-center w-full justify-center  px-4 mt-4"
+        >
+          <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+          <div
+            class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center"
+          >
+            <h1 class="header">Podstawowe Informacje dla klientow</h1>
+          </div>
+          <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+        </div>
+        <div class="text-center text-md sm:text-2xl mt-8">
+          <p class="sm:w-3/4 m-auto">
+            Kochani! W mojej usłudze fotograficznej:</br> - Wykonuję sesje
+            najczęściej na terenie Krakowa, Dębicy, ale fotografuję </br>  na terenie
+            całej Polski</br> - Dojazd jest w cenie 40 km od Krakowa </br>- Selekcja i
+            wybór najlepszych zdjęć leży po mojej stronie </br>- Przed sesją
+            konsultujemy się, często proszę Was o wysłanie przykładowych
+            inspiracji, abym wiedziała na czym Wam najbardziej zależy w ujęciach
+        </br>- Każde zdjęcie jest poddane obróbce graficznej, nie oddaję surowych
+            zdjęć 
+          </p>
+          <p class="py-8 text-xl sm:text-3xl">Zapraszam do zapoznania się z ofertą!</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-16 sm:mt-32">
+        <div class="max-w-screen-2xl m-auto">
+      <div class="px-2">
+          <div
+            class="flex items-center w-full justify-center  px-4 mt-4"
+          >
+            <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+            <div
+              class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center"
+            >
+              <h1 class="header">Oferta dla Stalych Klientow</h1>
+            </div>
+            <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+          </div>
+          <div class="text-center text-md sm:text-2xl">
+            <p class="sm:w-3/4 m-auto py-12">
+                Moi wspaniali, STALI KLIENCI (min. po 2 sesjach) otrzymują:
+                1 dodatkowe ujęcie gratis z każdej kolejnej sesji o wartości 30 zł. </br>
+                3 sesja u mnie - zniżka 15%
+                5 sesja u mnie - zniżka 30% </br>
+                Po 5 sesji, pakiet się odnawia(sesje są naliczane znów od nowa).
+                
+            </p>
+            <p class="py-8 text-xl sm:text-3xl"> (Zniżki nie obejmują reportażu ślubnego i okolicznościowego).</p>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
+          <div class="w-[60%]"><img src="https://lh3.googleusercontent.com/pw/AL9nZEW3W7f9am8p0iUDBSpUdWJvj5zGwawiEl3bMzAgsLa64fzBXpdSIOZ4TGrj92n7OabYxP0LQv7Ku_BIUNim7CVvYH3lT2178nYtCGHXc2hLZoghj3VLQ-q032YyYKS7SwbO86eOhH41TTU23wu9zavV=w1400-h933-no?authuser=0" /></div>
+          <div class="flex flex-col items-center justify-start w-full">
+            <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+            <h2>Reportaz </br> Okolicznosciowy</h2>
+          </div>
+          <div class="w-full">
+            <div class="flex items-center justify-center w-full">
+              <div
+                class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
+              ></div>
+              <div
+                class="text-2xl m-4 text-headerColor tracking-widest "
+              >
+                OFERTA
+              </div>
+              <div
+                class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
+              ></div>
+            </div>
+          </div>
+          <div>
+            PAKIET 1
+60 ZDJĘĆ - 500 zł
+
+PAKIET 2
+100 ZDJĘĆ - 700 zł
+
+PAKIET 3 
+150 ZDJĘĆ - 1000 zł
+
+ Pakiety obejmują:
+- zdjęcia w formie elektronicznej - zdjęcie poddane obróbce graficznej
+Za dodatkową opłatą:
+Przygotowanie albumu zdjęciowego/fotoksiążki,
+Pendrive z zdjęciami
+
+          </div>
+          </div>
+        </div>
+      </section>
+
+    <script src="../src/menu.js"></script>
+  </body>
 </html>

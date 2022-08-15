@@ -1,14 +1,17 @@
 
 module.exports = {
-  content: ["./public/*.html"],
+  content: ["./public/*.html",
+  "./html/*.html"
+],
   theme: {
     extend: {
       colors: {
         primaryColor:"#b78b71",
         secondaryColor:"#c28165",
         headerColor:"#fff8d3",
-        overlayColor:"#000000b3"
-      
+        overlayColor:"#000000b3",
+        overlayWhite:"#ffffffb3"
+     
 
       },
       fontFamily: {
