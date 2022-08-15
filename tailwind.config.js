@@ -9,7 +9,7 @@ module.exports = {
         primaryColor:"#b78b71",
         secondaryColor:"#c28165",
         headerColor:"#fff8d3",
-        overlayColor:"#000000b3",
+        overlayColor:"#1c1c1cbf",
         overlayWhite:"#ffffffb3"
      
 

@@ -1,359 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../src/fonts.css" />
-    <link rel="stylesheet" href="../src/dividerStyles.css" />
-    <link rel="stylesheet" href="../src/general.css" />
-    <title>Photographer site</title>
 
- 
-  </head>
-  <body class="font-body overflow-x-hidden bg-primaryColor">
-    <div class="xl:hidden w-full h-[80px] bg-overlayColor flex items-center fixed top-0 z-[1001]">
-    <div id="hamburger" class="xl:hidden cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
-      <div class="w-[50px] h-[4px] bg-white hamburger-bar">    
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../src/fonts.css" />
+  <link rel="stylesheet" href="../src/dividerStyles.css" />
+  <link rel="stylesheet" href="../src/general.css" />
+  <title>Photographer site</title>
+
+
+</head>
+
+<body class="font-body overflow-x-hidden bg-primaryColor">
+  <div class="xl:hidden backdrop-blur-sm w-full h-[60px] bg-overlayColor flex items-center fixed top-0 z-[1001]">
+    <div id="hamburger"
+      class="xl:hidden cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
+      <div class="w-[50px] h-[4px] bg-white hamburger-bar">
       </div>
-    
+
     </div>
   </div>
 
 
-    <div id="overlay" class="hidden fixed w-screen h-screen  top-[80px] left-0 bg-overlayColor z-[1000]" >
-      <nav id="navigation"
-      class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2"
-    >
-      <ul
-        class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest "
-      >
-        <li
-          class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+  <div id="overlay" class="hidden backdrop-blur-sm fixed w-screen h-screen  top-[60px] left-0 bg-overlayColor z-[1000]">
+    <nav id="navigation"
+      class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
+      <ul class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest ">
+        <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="../html/offer.html">OFERTA</a>
         </li>
-        <li
-          class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+        <li class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="">GALERIA</a>
         </li>
-        <li
-          class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+        <li class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="">STREFA KLIENTA</a>
         </li>
       </ul>
-      <ul
-        class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest"
-      >
-        <li
-          class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+      <ul class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest">
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="">VOUCHER</a>
         </li>
-        <li
-          class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="">RECENZJE</a>
         </li>
-        <li
-          class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-        >
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="">KONTAKT</a>
         </li>
       </ul>
     </nav>
+  </div>
+
+
+
+  <!-- Hero -->
+
+  <section class="overflow-hidden w-full relative">
+    <div
+      class="xl:hidden font-headerFont w-full absolute text-6xl p-[10px] text-center top-1/2 -translate-y-1/2 left-[50%] -translate-x-1/2 text-headerColor bg-overlayColor">
+      <h1 class="header">Magdalena Grzesiakowska</h1>
+      <h2 class="header">Fotograf</h2>
     </div>
+    <img
+      src="https://lh3.googleusercontent.com/pw/AL9nZEXigeseY9UDio9n9gy3tJw0yKIDHv0dhqoFGI2CM9sDEBKGHaCUZZvo2IFLKV1cLyJDjt8ikNYeiAy556AePGye38EbQV14yOErd8--iPhjsVuYSJ0nXX3gxWLKrOCGGxGHj7uy8zNK6Mj4DDpqqV_L=w1400-h933-no?authuser=0"
+      class="w-screen min-w-[400px] object-cover h-[80vh] min-h-[800px] max-w-[2500px] max-h-[1200px] m-auto" />
 
 
-
-    <!-- Hero -->
-
-    <section class="overflow-hidden w-full relative">
-      <div class="xl:hidden font-headerFont w-full absolute text-6xl p-[10px] text-center top-1/2 -translate-y-1/2 left-[50%] -translate-x-1/2 text-headerColor bg-overlayColor">
-        <h1 class="header">Magdalena Grzesiakowska</h1>
-        <h2 class="header">Fotograf</h2>
-        </div>
-      <img
-        src="https://lh3.googleusercontent.com/pw/AL9nZEXigeseY9UDio9n9gy3tJw0yKIDHv0dhqoFGI2CM9sDEBKGHaCUZZvo2IFLKV1cLyJDjt8ikNYeiAy556AePGye38EbQV14yOErd8--iPhjsVuYSJ0nXX3gxWLKrOCGGxGHj7uy8zNK6Mj4DDpqqV_L=w1400-h933-no?authuser=0"
-        class="w-screen min-w-[400px] object-cover h-[80vh] min-h-[800px] max-w-[2500px] max-h-[1200px] m-auto"
-      />
-    
-  
-      <div
-        class="hidden xl:block inset-x-2/4 top-[50%] -translate-y-1/2  xl:translate-y-0  bg-primaryColor min-h-[50px] xl:h-[216px] flex flex-col items-center max-w-screen-2xl mx-auto z-[2]"
-      >
+    <div
+      class="hidden xl:block  -translate-y-1/2  xl:translate-y-0   min-h-[50px]  max-w-screen-2xl m-auto">
+      <div class="flex max-h-[108px] h-[10vh] items-center w-[60%] justify-between mt-2 m-auto">
+        <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div>
         <div
-          class="flex max-h-[108px] h-[10vh] items-center w-[60%] justify-between mt-2 m-auto"
-        >
-          <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div>
-          <div class="bottom-[300px] font-headerFont w-full absolute text-8xl text-center xl:-top-[90px] left-[50%] -translate-x-1/2 text-headerColor ">
-            <h1 class="header">Magdalena Grzesiakowska</h1>
-            <h2 class="header">Fotograf</h2>
-            </div>
-          <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div>
+          class="bottom-[300px] font-headerFont w-full absolute text-8xl text-center xl:-top-[90px] left-[50%] -translate-x-1/2 text-headerColor z-[1004]">
+          <h1 class="header">Magdalena Grzesiakowska </br> Fotograf</h1>
+          
         </div>
-        <nav id="navigation"
-          class="font-menuFont w-full flex justify-center items-center pt-8 xl:pt-0 xl:flex-row xl:justify-between xl:items-end relative mt-8"
-        >
-          <ul
-            class=" flex flex-col md:flex-row items-center xl:w-[44%] justify-center xl:justify-between text-3xl text-[#fff8d3] tracking-widest  flex-wrap box-border xl:pb-4"
-          >
-            <li
-              class="xl:ml-3 m-2 border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="../html/offer.html">OFERTA</a>
-            </li>
-            <li
-              class="xl:mx-4 m-2 box-border border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="">GALERIA</a>
-            </li>
-            <li
-              class="text-center m-2 border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="">STREFA KLIENTA</a>
-            </li>
-          </ul>
-          <ul
-            class="flex flex-col md:flex-row items-center xl:w-[44%] justify-center xl:justify-between text-3xl text-[#fff8d3] tracking-widest pb-4 flex-wrap"
-          >
-            <li
-              class="m-2 border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="">VOUCHER</a>
-            </li>
-            <li
-              class="xl:mx-4 m-2 border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="">RECENZJE</a>
-            </li>
-            <li
-              class="xl:mr-3 m-2 border-b-4 border-transparent hover:border-[#fff8d3]"
-            >
-              <a href="">KONTAKT</a>
-            </li>
-          </ul>
-        </nav>
+        <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div>
       </div>
-    </section>
-    <div class="hidden xl:block h-10 flex items-center">
-      <div class="bg-[#fff8d3] h-[1px] w-full"></div>
     </div>
+    
+  </section>
+  <nav id="navigation"
+        class="sticky top-0 hidden xl:flex fixed max-w-[2500px]  m-auto top-0 font-menuFont w-full justify-center items-center pt-8 xl:pt-0  xl:justify-around xl:items-center  mt-8 r bg-primaryColor z-[1003] border-b-2">
+        <ul
+          class=" flex flex-col md:flex-row items-center xl:w-[44%] justify-center xl:justify-between text-3xl text-[#fff8d3] tracking-widest    ">
+          <li class="xl:ml-3 m-2 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="../html/offer.html">OFERTA</a>
+          </li>
+          <li class="xl:mx-4 m-2 box-border border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="">GALERIA</a>
+          </li>
+          <li class="text-center m-2 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="">STREFA KLIENTA</a>
+          </li>
+        </ul>
+        <ul
+          class="flex flex-col md:flex-row items-center xl:w-[44%] justify-center xl:justify-between text-3xl text-[#fff8d3] tracking-widest">
+          <li class="m-2 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="">VOUCHER</a>
+          </li>
+          <li class="xl:mx-4 m-2 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="">RECENZJE</a>
+          </li>
+          <li class="xl:mr-3 m-2 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="">KONTAKT</a>
+          </li>
+        </ul>
+      </nav>
 
-    <!-- Witaj -->
+  <!-- Witaj -->
 
-    <section class="w-screen max-w-full bg-primaryColor mt-[60px]">
-      <div class="flex max-w-screen-2xl m-auto px-[10px]">
-        <div class="w-full flex flex-col justify-center items-center ">
-          <div class="w-full flex justify-center items-start">
-            <div class="flex justify-center p-md w-[44%] items-center">
-              <div
-                class="sm:w-1/3 h-[1.5px] bg-[#655339] rounded-sm min-w-[50px]"
-              ></div>
-              <div class="text-6xl sm:text-8xl mx-4 font-headerFont text-headerColor"><h2 class="header">Witaj</h2></div>
-              <div
-                class="sm:w-1/3 h-[1.5px] bg-[#655339] rounded-sm min-w-[50px]"
-              ></div>
+  <section class="w-screen max-w-full bg-primaryColor mt-[60px]">
+    <div class="flex max-w-screen-2xl m-auto px-[10px]">
+      <div class="w-full flex flex-col justify-center items-center ">
+        <div class="w-full flex justify-center items-start">
+          <div class="flex justify-center p-md w-[44%] items-center">
+            <div class="sm:w-1/3 h-[1.5px] bg-[#655339] rounded-sm min-w-[50px]"></div>
+            <div class="text-6xl sm:text-8xl mx-4 font-headerFont text-headerColor">
+              <h2 class="header">Witaj</h2>
             </div>
-          </div>
-          <div class="p-8 text-xl sm:text-3xl text-center">
-            <p>
-              Cześć, jestem Magda i miło mi Cię powitać w świecie, który bardzo
-              kocham, świecie fotografii. Od zawsze kochałam zdjęcia, nauczyły
-              mnie głębszego postrzegania na świat.
-            </p>
-            <h2 class="mt-6 text-3xl">
-              "Gdziekolwiek dziś jesteś, twórz wspomnienia."
-            </h2>
-            <p class="mb-6 mt-2">
-              Chwile są niezwykle pięknym darem pomimo, że przemijają. Cieszę
-              się, że mogę je zatrzymać dla Was. Ułamek chwili zapisany w kadrze
-              - Ten moment zostaje z nami na zawsze i myślę, że właśnie to czyni
-              fotografowanie tak wspaniałym zajęciem, a zdjęcia niesamowicie
-              wyjątkową pamiątką
-            </p>
-            <p>
-              Kochani, po tych krótkich słowach wstępu chciałabym Was zaprosić
-              do zapoznania się z moją ofertą.Pamiętajcie, zadowoleni Wy to
-              również szczęśliwa ja.
-            </p>
-            <p class="mt-6">
-              DO ZOBACZENIA PRZED OBIEKTYWEM! <br /><br />
-              <strong>"TAKE CARE OF YOURSELF AND CAPTURE THE MOMENTS"</strong>
-            </p>
+            <div class="sm:w-1/3 h-[1.5px] bg-[#655339] rounded-sm min-w-[50px]"></div>
           </div>
         </div>
-        <div class="hidden lg:block">
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEVs_K-taQsz6J1zAQONoyBSLTHfpYqiXNFmN8XYpQdKnCx8vLdjU5ZNB-05zFe0OtDXHB6TWZnIDLLFwyo4zrkZIXMo73gMtsyrA7k_aMGdP5rfhHzPd26Az0LGDSVDFEfRsSHvbsXbCmug1QEcDwpi=w623-h933-no?authuser=0"
-            class="h-full w-[800px] object-cover"
-          />
+        <div class="p-8 text-xl sm:text-3xl text-center">
+          <p>
+            Cześć, jestem Magda i miło mi Cię powitać w świecie, który bardzo
+            kocham, świecie fotografii. Od zawsze kochałam zdjęcia, nauczyły
+            mnie głębszego postrzegania na świat.
+          </p>
+          <h2 class="mt-6 text-3xl">
+            "Gdziekolwiek dziś jesteś, twórz wspomnienia."
+          </h2>
+          <p class="mb-6 mt-2">
+            Chwile są niezwykle pięknym darem pomimo, że przemijają. Cieszę
+            się, że mogę je zatrzymać dla Was. Ułamek chwili zapisany w kadrze
+            - Ten moment zostaje z nami na zawsze i myślę, że właśnie to czyni
+            fotografowanie tak wspaniałym zajęciem, a zdjęcia niesamowicie
+            wyjątkową pamiątką
+          </p>
+          <p>
+            Kochani, po tych krótkich słowach wstępu chciałabym Was zaprosić
+            do zapoznania się z moją ofertą.Pamiętajcie, zadowoleni Wy to
+            również szczęśliwa ja.
+          </p>
+          <p class="mt-6">
+            DO ZOBACZENIA PRZED OBIEKTYWEM! <br /><br />
+            <strong>"TAKE CARE OF YOURSELF AND CAPTURE THE MOMENTS"</strong>
+          </p>
         </div>
       </div>
-    </section>
+      <div class="hidden lg:block">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEVs_K-taQsz6J1zAQONoyBSLTHfpYqiXNFmN8XYpQdKnCx8vLdjU5ZNB-05zFe0OtDXHB6TWZnIDLLFwyo4zrkZIXMo73gMtsyrA7k_aMGdP5rfhHzPd26Az0LGDSVDFEfRsSHvbsXbCmug1QEcDwpi=w623-h933-no?authuser=0"
+          class="h-full w-[800px] object-cover" />
+      </div>
+    </div>
+  </section>
 
-    <!-- Galeria -->
+  <!-- Galeria -->
 
-    <section class="relative bg-white">
-      <div class="custom-shape-divider-top-1660126017 mb-12 relative">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill"
-          ></path>
-        </svg>
+  <section class="relative bg-white">
+    <div class="custom-shape-divider-top-1660126017 mb-12 relative">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+    <h2 class="text-4xl sm:text-6xl text-center my-8">Moje Zdjęcia</h2>
+    <div
+      class="grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-2 gap-6 lg:gap-3 max-w-screen-2xl m-auto lg:grid-flow-col lg:h-[700px] p-4 pb-8">
+      <div class="lg:col-span-2">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUtORDC7mnDmWp-eS7jXj0GKHOb0cD6AKkiMGkDbf8Z8H1p2KPnQWoV2RuPL1vQ4FbT5RghORxA8A5RU2QTGXfq4i1RpCDtpq-M0ECQ_wvs48Slp8M6U_15nnk7dQJC1ilBON64sB1ZL87MfxV2Uq1h=w1400-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
       </div>
-      <h2 class="text-4xl sm:text-6xl text-center my-8">Moje Zdjęcia</h2>
-      <div
-        class="grid grid-cols-1 lg:grid-cols-6 lg:grid-rows-2 gap-6 lg:gap-3 max-w-screen-2xl m-auto lg:grid-flow-col lg:h-[700px] p-4 pb-8"
-      >
-        <div class="lg:col-span-2">
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEUtORDC7mnDmWp-eS7jXj0GKHOb0cD6AKkiMGkDbf8Z8H1p2KPnQWoV2RuPL1vQ4FbT5RghORxA8A5RU2QTGXfq4i1RpCDtpq-M0ECQ_wvs48Slp8M6U_15nnk7dQJC1ilBON64sB1ZL87MfxV2Uq1h=w1400-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
-        <div class="lg:col-span-2">
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEUF6hDnuptX5xnesgftnFXYnD4pqxJaoSBnIKK_tmYrnscJ3YFIdgxombx7mqpX-EwkLBI3sjtH1lzcEzMFH3ASg3lhL6LV15MhNmziuF0IdhlIweyB_wGehGycwIEhq7ITUe_Cix56FnpYWeHWvi4C=w623-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
-        <div class="lg:row-span-2 lg:col-span-2">
-          <img
-            src=" https://lh3.googleusercontent.com/pw/AL9nZEXb1o1GQSFzg0bfrcETQ7jNM_xiC2AjAur8UeY6wVMatbQ_JHdg2Lxw9R56tAS88z-V4ua_Wc29M3spACQJYzb9tcKNPI6jjdLp1i1afXAeTHGhL8DW84-MOI6S2n868Vdo-4NGxe82VG6FwOLfk0kK=w623-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
+      <div class="lg:col-span-2">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUF6hDnuptX5xnesgftnFXYnD4pqxJaoSBnIKK_tmYrnscJ3YFIdgxombx7mqpX-EwkLBI3sjtH1lzcEzMFH3ASg3lhL6LV15MhNmziuF0IdhlIweyB_wGehGycwIEhq7ITUe_Cix56FnpYWeHWvi4C=w623-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
+      </div>
+      <div class="lg:row-span-2 lg:col-span-2">
+        <img
+          src=" https://lh3.googleusercontent.com/pw/AL9nZEXb1o1GQSFzg0bfrcETQ7jNM_xiC2AjAur8UeY6wVMatbQ_JHdg2Lxw9R56tAS88z-V4ua_Wc29M3spACQJYzb9tcKNPI6jjdLp1i1afXAeTHGhL8DW84-MOI6S2n868Vdo-4NGxe82VG6FwOLfk0kK=w623-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
+      </div>
 
-        <div class="lg:col-span-2">
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEXrZQbpEEF6lGbp_UnUYsUc9NaXHXn6QgKYB1_ZrRhDk2nQQyzVXXxExZ46XfwvGKXaiMdiGoswjFHdM2jYJ3NUyzUqt55kSImb93yhB_btbInxCc9VhqrxvQFeeGzvaUgF4eUtN5lkVKRd0FqiAeHo=w1400-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
-        <div>
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEVE0cQVFV66E6y7HkhqiGWTB5bJrRL4y3T1Sq553s0FCO28ZP64PhBmNDUNJw2HGsP_fC0-lcAKhTmQAwVjWofFAMpIex5XlvXJytAS7HLEksmfe7S-7Slh9nbR4a0q8Z-IhJv0osK10PUFcLMYjwC0=w623-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
-        <div>
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEWf3gr5ixpwzzX2cTq9nfB1G9EgBgPbFUiOexKjUwwEqitJY85QYVtQMRgRIrBuPSjp7qDqyb9V7OTffuzw1SUeKjSkRdEl-GXtO8kjg-1mPizMR1QTQIc-BcReJ2NgIJfJ0UHKeyfT0h0jPPyUH8Cc=w623-h933-no?authuser=0"
-            class="h-full w-full object-cover"
-          />
-        </div>
+      <div class="lg:col-span-2">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEXrZQbpEEF6lGbp_UnUYsUc9NaXHXn6QgKYB1_ZrRhDk2nQQyzVXXxExZ46XfwvGKXaiMdiGoswjFHdM2jYJ3NUyzUqt55kSImb93yhB_btbInxCc9VhqrxvQFeeGzvaUgF4eUtN5lkVKRd0FqiAeHo=w1400-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
       </div>
-    </section>
-    <!-- Baner -->
-    <section>
-      <div class="custom-shape-divider-top-1660126017 mb-8 relative">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
-            class="shape-fill2"
-          ></path>
-        </svg>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEVE0cQVFV66E6y7HkhqiGWTB5bJrRL4y3T1Sq553s0FCO28ZP64PhBmNDUNJw2HGsP_fC0-lcAKhTmQAwVjWofFAMpIex5XlvXJytAS7HLEksmfe7S-7Slh9nbR4a0q8Z-IhJv0osK10PUFcLMYjwC0=w623-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
       </div>
-      <div class="m-auto mt-48 lg:mt-24">
-        <div class="w-full flex  max-w-[2500px] m-auto">
-          <div class="hidden lg:block w-2/5 2xl:w-1/2">
-            <img
-              src="https://lh3.googleusercontent.com/pw/AL9nZEW28GIi26s6ICJdtuH3KZbQrrdyYjGCj2oJrdCBEv8UTfMMCuJl-T7wQ-ko-AFgMAAt5p_u6dddRPW-2_L1QNKDYJWR3oZrKCGv_udrUg0mxe1qiyBAb0TfMS5zIJSKG1NF0kXebhVMJHn-mXJ_eJO-=w1309-h933-no?authuser=0"
-              class="h-full w-full object-cover"
-            />
-          </div>
-          <div class="w-full lg:mt-0 lg:w-3/5 2xl:w-1/2 flex px-4 lg:px-0">
-            <div class="w-full 2xl:w-3/5 2xl:min-w-[600px]">
-              <div class="h-1/2 lg:border-2 lg:border-white">
-                <div class="flex flex-col justify-center items-center h-full break-all">
-                  <div class="text-2xl sm:text-3xl mb-4 text-center">
-                    <h2>Bon Podarunkowy</h2>
-                  </div>
-                  <div class="w-full">
-                    <div class="flex items-center justify-center w-full">
-                      <div
-                        class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
-                      ></div>
-                      <div
-                        class="text-2xl m-4 text-headerColor tracking-widest"
-                      >
-                        OFERTA
-                      </div>
-                      <div
-                        class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
-                      ></div>
+      <div>
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEWf3gr5ixpwzzX2cTq9nfB1G9EgBgPbFUiOexKjUwwEqitJY85QYVtQMRgRIrBuPSjp7qDqyb9V7OTffuzw1SUeKjSkRdEl-GXtO8kjg-1mPizMR1QTQIc-BcReJ2NgIJfJ0UHKeyfT0h0jPPyUH8Cc=w623-h933-no?authuser=0"
+          class="h-full w-full object-cover" />
+      </div>
+    </div>
+  </section>
+  <!-- Baner -->
+  <section>
+    <div class="custom-shape-divider-top-1660126017 mb-8 relative">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill2"></path>
+      </svg>
+    </div>
+    <div class="m-auto mt-48 lg:mt-24">
+      <div class="w-full flex  max-w-[2500px] m-auto">
+        <div class="hidden lg:block w-2/5 2xl:w-1/2">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AL9nZEW28GIi26s6ICJdtuH3KZbQrrdyYjGCj2oJrdCBEv8UTfMMCuJl-T7wQ-ko-AFgMAAt5p_u6dddRPW-2_L1QNKDYJWR3oZrKCGv_udrUg0mxe1qiyBAb0TfMS5zIJSKG1NF0kXebhVMJHn-mXJ_eJO-=w1309-h933-no?authuser=0"
+            class="h-full w-full object-cover" />
+        </div>
+        <div class="w-full lg:mt-0 lg:w-3/5 2xl:w-1/2 flex px-4 lg:px-0">
+          <div class="w-full 2xl:w-3/5 2xl:min-w-[600px]">
+            <div class="h-1/2 lg:border-2 lg:border-white">
+              <div class="flex flex-col justify-center items-center h-full break-all">
+                <div class="text-2xl sm:text-3xl mb-4 text-center">
+                  <h2>Bon Podarunkowy</h2>
+                </div>
+                <div class="w-full">
+                  <div class="flex items-center justify-center w-full">
+                    <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+                    <div class="text-2xl m-4 text-headerColor tracking-widest">
+                      OFERTA
                     </div>
-                  </div>
-                  <div class="text-center text-md sm:text-2xl lg:text-xl sm:p-[20px]">
-                    <p class="font-bold">BON PODARUNKOWY/VOUCHER OBEJMUJE:</p>
-                    <ul class="my-4">
-                      <li>-SESJE KOBIECE</li>
-                      <li>-SESJE DLA PAR</li>
-                      <li>-SESJE CIĄŻOWE</li>
-                      <li>-SESJE DLA DZIECI</li>
-                      <li>-SESJE RODZINNE</li>
-                    </ul>
-                    <p>
-                      CENA BONU PODARUNKOWEGO - PODSTAWOWA CENA WYBRANEGO
-                      PAKIETU SESJI + 15ZŁ
-                    </p>
+                    <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
                   </div>
                 </div>
-              </div>
-              <div class="hidden lg:block h-1/2 border-x-2 border-white">
-                <img
-                  src="https://lh3.googleusercontent.com/pw/AL9nZEWtnR-SWPK6zKqV9pNIl0BIwFL7hKyUXznka2mVqd44yzaXb-ShuyEuBTFrfm6bssvjDTr1ZZmUvOJpkyr0_0ikxEukrfZ_0jyYy87WiYDpr3m3A--IDrGHjZMQoHFZDR2SkvnezD7Kie_-ePMLO7Hx=w1399-h933-no?authuser=0"
-                  class="w-full h-full object-cover"
-                />
+                <div class="text-center text-md sm:text-2xl lg:text-xl sm:p-[20px]">
+                  <p class="font-bold">BON PODARUNKOWY/VOUCHER OBEJMUJE:</p>
+                  <ul class="my-4">
+                    <li>-SESJE KOBIECE</li>
+                    <li>-SESJE DLA PAR</li>
+                    <li>-SESJE CIĄŻOWE</li>
+                    <li>-SESJE DLA DZIECI</li>
+                    <li>-SESJE RODZINNE</li>
+                  </ul>
+                  <p>
+                    CENA BONU PODARUNKOWEGO - PODSTAWOWA CENA WYBRANEGO
+                    PAKIETU SESJI + 15ZŁ
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="w-2/5 hidden 2xl:block">
+            <div class="hidden lg:block h-1/2 border-x-2 border-white">
               <img
-                src="https://lh3.googleusercontent.com/pw/AL9nZEUXO9LufmAuQhJ-XYcMzPWCQ5lsdg3Qi40Oaj6SjgEZXriYCp46mz4Xtlnt0tMeD8LTAWQV9ITIJNwa7nzGYxdLDRCI5pn9ZKp9TUIFcA9Niw6Tqu-xhYOAxAf9v21Vg1dFf2KFx7EpbCBmxFYxM1ym=w1454-h933-no?authuser=0"
-                class="w-full h-full object-cover"
-              />
+                src="https://lh3.googleusercontent.com/pw/AL9nZEWtnR-SWPK6zKqV9pNIl0BIwFL7hKyUXznka2mVqd44yzaXb-ShuyEuBTFrfm6bssvjDTr1ZZmUvOJpkyr0_0ikxEukrfZ_0jyYy87WiYDpr3m3A--IDrGHjZMQoHFZDR2SkvnezD7Kie_-ePMLO7Hx=w1399-h933-no?authuser=0"
+                class="w-full h-full object-cover" />
             </div>
+          </div>
+          <div class="w-2/5 hidden 2xl:block">
+            <img
+              src="https://lh3.googleusercontent.com/pw/AL9nZEUXO9LufmAuQhJ-XYcMzPWCQ5lsdg3Qi40Oaj6SjgEZXriYCp46mz4Xtlnt0tMeD8LTAWQV9ITIJNwa7nzGYxdLDRCI5pn9ZKp9TUIFcA9Niw6Tqu-xhYOAxAf9v21Vg1dFf2KFx7EpbCBmxFYxM1ym=w1454-h933-no?authuser=0"
+              class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- STOPKA -->
+  <!-- STOPKA -->
 
-    <footer>
-      <div class=" bg-gray-100 p-[20px] flex items-center flex-col justify-center sm:flex-row sm:justify-around pl-[40px]">
-        <div class="h-full">
-          <img
-            src="https://lh3.googleusercontent.com/pw/AL9nZEXp9-ozGisR6tLDMjqG_FY2bJ7CVsN7omlpYN0AWGNic8EKfB4OZio1TB7K65iL1XtTDS7SUWsbpoCy9O6r46mF0rkzqlix5i2yR1BQfnhJ02pcpOdbLOEp309mHxuUXumgIp-l3wZOvpM2qNzCDtTv=w534-h387-no?authuser=0"
-          class="h-[150px]"/>
-        </div>
-        <div class="text-gray-500 text-xl flex items-center sm:flex-row flex-col">
-          <span class="my-4 sm:my-0 text-sm md:text-xl">&#x24D2 2022 Wszelkie prawa zastrzeżone</span>
-          <div>
+  <footer>
+    <div
+      class=" bg-gray-100 p-[20px] flex items-center flex-col justify-center sm:flex-row sm:justify-around pl-[40px]">
+      <div class="h-full">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEXp9-ozGisR6tLDMjqG_FY2bJ7CVsN7omlpYN0AWGNic8EKfB4OZio1TB7K65iL1XtTDS7SUWsbpoCy9O6r46mF0rkzqlix5i2yR1BQfnhJ02pcpOdbLOEp309mHxuUXumgIp-l3wZOvpM2qNzCDtTv=w534-h387-no?authuser=0"
+          class="h-[150px]" />
+      </div>
+      <div class="text-gray-500 text-xl flex items-center sm:flex-row flex-col">
+        <span class="my-4 sm:my-0 text-sm md:text-xl">&#x24D2 2022 Wszelkie prawa zastrzeżone</span>
+        <div>
           <i class="fa-brands fa-facebook-f mx-4"></i>
           <i class="fa-brands fa-instagram text-2xl"></i>
         </div>
-        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
 
-    <script src="../src/menu.js"></script>
-    <script src="https://kit.fontawesome.com/36419b9715.js" crossorigin="anonymous"></script>
-  </body>
+  <script src="../src/menu.js"></script>
+  <script src="https://kit.fontawesome.com/36419b9715.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

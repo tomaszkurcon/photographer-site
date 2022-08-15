@@ -1,83 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../src/fonts.css" />
-    <link rel="stylesheet" href="../src/dividerStyles.css" />
-    <link rel="stylesheet" href="../src/general.css" />
-    <title>Oferta</title>
-  </head>
-  <!-- <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div> -->
-  <body class="bg-primaryColor font-body">
 
-    <div id="menu-bar" class="w-full h-[80px]  flex items-center sticky top-0 z-[1001] bg-overlayColor">
-        <div id="hamburger" class=" rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
-          <div class="w-[50px] h-[4px] bg-white hamburger-bar">    
-          </div>
-        
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../src/fonts.css" />
+  <link rel="stylesheet" href="../src/dividerStyles.css" />
+  <link rel="stylesheet" href="../src/general.css" />
+  <title>Oferta</title>
+</head>
+<!-- <div class=" w-1/3 h-[1px] bg-[#655339] rounded-sm"></div> -->
+
+<body class="bg-primaryColor font-body leading-10 ">
+
+  <div id="menu-bar"
+    class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor justify-between ">
+    <div id="hamburger"
+      class=" rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
+      <div class="w-[50px] h-[4px] bg-white hamburger-bar">
       </div>
 
-      <div id="overlay" class="hidden fixed w-screen h-screen  top-[80px] left-0 bg-overlayColor z-[1000]" >
-        <nav id="navigation"
-        class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2"
-      >
-        <ul
-          class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest "
-        >
-          <li
-            class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="../html/offer.html">OFERTA</a>
-          </li>
-          <li
-            class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="">GALERIA</a>
-          </li>
-          <li
-            class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="">STREFA KLIENTA</a>
-          </li>
-        </ul>
-        <ul
-          class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest"
-        >
-          <li
-            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="">VOUCHER</a>
-          </li>
-          <li
-            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="">RECENZJE</a>
-          </li>
-          <li
-            class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]"
-          >
-            <a href="">KONTAKT</a>
-          </li>
-        </ul>
-      </nav>
-      </div>
+    </div>
+
+  </div>
+
+  <div id="overlay" class="hidden backdrop-blur-sm fixed w-screen h-screen  top-[60px] left-0 bg-overlayColor z-[1000]">
+    <nav id="navigation"
+      class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
+      <ul class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest ">
+        <li class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="../public/index.html">STRONA GŁÓWNA</a>
+        </li>
+        <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="../html/offer.html">OFERTA</a>
+        </li>
+        <li class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="">GALERIA</a>
+        </li>
+      </ul>
+      <ul class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest">
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="">VOUCHER</a>
+        </li>
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="">RECENZJE</a>
+        </li>
+        <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+          <a href="">KONTAKT</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
 
 
-    <section>
-      <div class="max-w-screen-2xl m-auto">
-    <div class="px-2">
-        <div
-          class="flex items-center w-full justify-center  px-4 mt-4"
-        >
+  <section>
+    <div class="max-w-screen-2xl m-auto">
+      <div class="px-2">
+        <div class="flex items-center w-full justify-center  px-4 mt-4">
           <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
-          <div
-            class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center"
-          >
+          <div class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center">
             <h1 class="header">Podstawowe Informacje dla klientow</h1>
           </div>
           <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
@@ -85,93 +69,570 @@
         <div class="text-center text-md sm:text-2xl mt-8">
           <p class="sm:w-3/4 m-auto">
             Kochani! W mojej usłudze fotograficznej:</br> - Wykonuję sesje
-            najczęściej na terenie Krakowa, Dębicy, ale fotografuję </br>  na terenie
+            najczęściej na terenie Krakowa, Dębicy, ale fotografuję </br> na terenie
             całej Polski</br> - Dojazd jest w cenie 40 km od Krakowa </br>- Selekcja i
             wybór najlepszych zdjęć leży po mojej stronie </br>- Przed sesją
             konsultujemy się, często proszę Was o wysłanie przykładowych
             inspiracji, abym wiedziała na czym Wam najbardziej zależy w ujęciach
-        </br>- Każde zdjęcie jest poddane obróbce graficznej, nie oddaję surowych
-            zdjęć 
+            </br>- Każde zdjęcie jest poddane obróbce graficznej, nie oddaję surowych
+            zdjęć
           </p>
           <p class="py-8 text-xl sm:text-3xl">Zapraszam do zapoznania się z ofertą!</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="mt-16 sm:mt-32">
+    <div class="max-w-screen-2xl m-auto">
+      <div class="px-2">
+        <div class="flex items-center w-full justify-center  px-4 mt-4">
+          <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+          <div class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center">
+            <h2 class="header">Oferta dla Stalych Klientow</h2>
+          </div>
+          <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
+        </div>
+        <div class="text-center text-md sm:text-2xl">
+          <p class="sm:w-3/4 m-auto py-12">
+            Moi wspaniali, STALI KLIENCI (min. po 2 sesjach) otrzymują:
+            1 dodatkowe ujęcie gratis z każdej kolejnej sesji o wartości 30 zł. </br>
+            3 sesja u mnie - zniżka 15%
+            5 sesja u mnie - zniżka 30% </br>
+            Po 5 sesji, pakiet się odnawia(sesje są naliczane znów od nowa).
+
+          </p>
+          <p class="py-8 text-xl sm:text-3xl"> (Zniżki nie obejmują reportażu ślubnego i okolicznościowego).</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-    <section class="mt-16 sm:mt-32">
-        <div class="max-w-screen-2xl m-auto">
-      <div class="px-2">
-          <div
-            class="flex items-center w-full justify-center  px-4 mt-4"
-          >
-            <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
-            <div
-              class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center"
-            >
-              <h1 class="header">Oferta dla Stalych Klientow</h1>
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
+      <div class="hidden lg:block w-3/4"><img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEW3W7f9am8p0iUDBSpUdWJvj5zGwawiEl3bMzAgsLa64fzBXpdSIOZ4TGrj92n7OabYxP0LQv7Ku_BIUNim7CVvYH3lT2178nYtCGHXc2hLZoghj3VLQ-q032YyYKS7SwbO86eOhH41TTU23wu9zavV=w1400-h933-no?authuser=0"
+          class="h-full w-full object-cover" /></div>
+      <div class="flex flex-col items-center justify-start w-full lg:border-l-4 px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Reportaz </br> Okolicznosciowy</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
             </div>
-            <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
-          </div>
-          <div class="text-center text-md sm:text-2xl">
-            <p class="sm:w-3/4 m-auto py-12">
-                Moi wspaniali, STALI KLIENCI (min. po 2 sesjach) otrzymują:
-                1 dodatkowe ujęcie gratis z każdej kolejnej sesji o wartości 30 zł. </br>
-                3 sesja u mnie - zniżka 15%
-                5 sesja u mnie - zniżka 30% </br>
-                Po 5 sesji, pakiet się odnawia(sesje są naliczane znów od nowa).
-                
-            </p>
-            <p class="py-8 text-xl sm:text-3xl"> (Zniżki nie obejmują reportażu ślubnego i okolicznościowego).</p>
-          </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
           </div>
         </div>
-      </section>
+        <div class="text-center text-xl">
+          <strong>PAKIET 1</strong> </br>
+          <span class="inline-block my-6">60 ZDJĘĆ - 500 zł</span> </br>
+          <strong>PAKIET 2</strong> </br>
+          <span class="inline-block my-6">100 ZDJĘĆ - 700 zł</span> </br>
+          <strong>PAKIET 3</strong> </br>
+          <span class="inline-block my-6">150 ZDJĘĆ - 1000 zł</span> </br>
 
-      <section>
-        <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
-          <div class="w-[60%]"><img src="https://lh3.googleusercontent.com/pw/AL9nZEW3W7f9am8p0iUDBSpUdWJvj5zGwawiEl3bMzAgsLa64fzBXpdSIOZ4TGrj92n7OabYxP0LQv7Ku_BIUNim7CVvYH3lT2178nYtCGHXc2hLZoghj3VLQ-q032YyYKS7SwbO86eOhH41TTU23wu9zavV=w1400-h933-no?authuser=0" /></div>
-          <div class="flex flex-col items-center justify-start w-full">
-            <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
-            <h2>Reportaz </br> Okolicznosciowy</h2>
-          </div>
-          <div class="w-full">
-            <div class="flex items-center justify-center w-full">
-              <div
-                class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
-              ></div>
-              <div
-                class="text-2xl m-4 text-headerColor tracking-widest "
-              >
-                OFERTA
-              </div>
-              <div
-                class="w-1/4 h-[1px] bg-[#655339] rounded-sm "
-              ></div>
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+          <ul class="mb-6">
+            <li>- zdjęcia w formie elektronicznej</li>
+            <li>- zdjęcie poddane obróbce graficznej</li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong>
+          
+          <ul>
+            <li>-przygotowanie albumu zdjęciowego / fotoksiążki,</li>
+            <li>-pendrive z zdjęciami</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+      <div class="hidden lg:block w-3/4 h-[728px] lg:border-l-4"><img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUZ1r2alpgK4ZXIHZz2VYqHqBzHnWrVbj6BrbcOGORkuo261HcRch5dHEX9CJ0_iEq03fypgWPXyrmnocVX0RpcsCzltZSBNBc31mCgiU6EoIg05QSQSwZqiJ8NFQpG6yBV1XHQDPgZPn7d-I_Q49Kp=w623-h933-no?authuser=0"
+          class="h-full w-full object-cover"/></div>
+      <div class="flex flex-col items-center justify-start w-full  px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Reportaz Slubny</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
             </div>
-          </div>
-          <div>
-            PAKIET 1
-60 ZDJĘĆ - 500 zł
-
-PAKIET 2
-100 ZDJĘĆ - 700 zł
-
-PAKIET 3 
-150 ZDJĘĆ - 1000 zł
-
- Pakiety obejmują:
-- zdjęcia w formie elektronicznej - zdjęcie poddane obróbce graficznej
-Za dodatkową opłatą:
-Przygotowanie albumu zdjęciowego/fotoksiążki,
-Pendrive z zdjęciami
-
-          </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
           </div>
         </div>
-      </section>
+        <div class="text-center text-xl">
+          <strong>PAKIET 1</strong> </br>
+          <span class="inline-block my-6">800 ZDJĘĆ - 3000 zł</span> </br>
+          <strong>PAKIET 2</strong> </br>
+          <span class="inline-block my-6">800 ZDJĘĆ + PAMIĄTKOWY ALBUM </br>
+            Album 30x30 cm </br>
+            30 rozkładówek </br> - 4000 zł </span> </br>
+            <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+         
+          <ul>
+            <li>- Fotografowanie z domu Panny młodej/Pana młodego</li>
+            <li>- zdjęcie w kościele/zdjęcia w urzędzie stanu cywilnego </li>
+            <li>- zdjęcie z przyjęcia weselnego do północy włącznie (dodatkowa godzina 100 zł)</li>
+            <li>- sesję plenerową</li>
+            <li> -zdjęcia w formie elektronicznej</li>
+            <li>- indywidualny pendrive z zdjęciami dla Was</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="../src/menu.js"></script>
-  </body>
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
+      <div class="hidden lg:block max-h-[808px] w-3/4 lg:border-r-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEVDF5KhwmTpLFVRBwyjA8p3kdIv4P0FvDN4Te3QeX9nbTfUNy6nXpmoQSOG0jgaTRK4sm_CxVsginmY8nrm1nZ9EhFDjLIqxeDHsT3yO_PHaIlbU11fLzTKdUjn6TNafNaxt9B0uoOVusydRDUoDM1w=w623-h933-no?authuser=0"
+          class="object-cover h-1/2 w-full lg:border-b-4" />
+      
+        
+          <img
+            src="https://lh3.googleusercontent.com/pw/AL9nZEUtORDC7mnDmWp-eS7jXj0GKHOb0cD6AKkiMGkDbf8Z8H1p2KPnQWoV2RuPL1vQ4FbT5RghORxA8A5RU2QTGXfq4i1RpCDtpq-M0ECQ_wvs48Slp8M6U_15nnk7dQJC1ilBON64sB1ZL87MfxV2Uq1h=w1400-h933-no?authuser=0"
+            class="object-cover h-1/2 w-full" />
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4 items-center">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesje dla par</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 400 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 400 zł</span>
+            </div>
+          </div>
+
+
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+          <ul>
+            <li>- zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+            <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- możliwość dokupienia dodatkowych ujęć:</li>
+            <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+              <span class="inline-block mt-6"></li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+      <div class="hidden  h-[808px] w-3/4 lg:grid grid-cols-2 grid-rows-5 gap-1 bg-white lg:border-l-4">     
+       <div class="col-span-2 row-span-2 ">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEXpzwPNn3_2AQz-YkLDefQI8VNQ1d_1QgjW9RoJzYQtkG8Jc9CMX7ltpFiQXI87dHisqQHEJAtuSc5rgGvOeJqr4ydQ1Lmut6tqNetbSH_jjfK98G1wRIY_vEWHuZQeff421cjTokSTxbrGFyDLxEeg=w1400-h933-no?authuser=0"
+          class="object-cover h-full w-full " />
+      
+        </div>
+      <div class="row-span-3">
+          <img
+            src="https://lh3.googleusercontent.com/pw/AL9nZEXQv2zBEN-DC-jdKVXzl_vW1qP9ES-LFjDFGx75x0O5FWtk5nbX25HZraMd4l0GZOxHjoDM3JbphNJpP0usVoXSgdWS3OFOwj8ods0K2QtP__Jg8K11JIRe94T20g52k9mQ73M4g0yYQ6JP3BKk9ss-=w623-h933-no?authuser=0"
+            class="object-cover h-full w-full" />
+      </div>      
+      <div class="row-span-3">
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEXFvElC0Z__mdMk4eDmDtr-Ubq7aJvYGHlmy8bJdddTvrNYk9iS7fxvsLSvzidle44ZMUgLk2nMQESxFP013X9ktDaq15aG8DbY7AUkA31QfBK0xCoIIQ8fSyN2CJ-HDQVtkW2p0yi22NJ6OZOIDdTG=w623-h933-no?authuser=0"
+          class="object-cover h-full w-full" />
+    </div>  
+    
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesja Kobieca</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+            </div>
+          </div>
+
+
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+           <ul>
+            <li>- zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+            <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- możliwość dokupienia dodatkowych ujęć:</li>
+            <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+              <span class="inline-block mt-6"></li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+           
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+      <div class="hidden lg:block h-[808px] w-3/4 lg:border-r-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEWwrsdZK1S_Zr8RK2iwvdMuJhDpuT1ooiKIljX62fT_M5g-2HlYDE7wx2woAbhc7Jl3dlbNv-0Csu8FeTtJf4tP8a4re1-FN90ZV5nGnx0wmLWTcIC5DS76NFOvAc6_lQ0HM9QMwDLECUWL-Ju4W5Xl=w623-h933-no?authuser=0"
+          class="object-cover h-full w-full " />
+      
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesje Ciazowe</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+            </div>
+          </div>
+
+
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+           <ul>
+            <li>- zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+            <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- możliwość dokupienia dodatkowych ujęć:</li>
+            <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+              <span class="inline-block mt-6"></li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+      <div class="hidden lg:block h-[808px] w-3/4 lg:border-l-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEW4h8QsKB1mh9gY06db0lRTJKDWLZlNUnqJTPSRoXZ2H5UPtFWRhMKZUIPNO6cWkJGm6GVAICaJ4DxXI4LYFHxwINhplejg2Y3sXnPDeTtnrgZ8zDZUV0Lgg3unBYeanhNkclyXhILVnf4Mn7Tu8HIK=w623-h933-no?authuser=0"
+          class="object-cover h-full w-full " />
+      
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4 ">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesja Rodzinna</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+            </div>
+          </div>
+
+
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+           <ul>
+            <li>- zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+            <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- możliwość dokupienia dodatkowych ujęć:</li>
+            <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+              <span class="inline-block mt-6"></li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+      <div class="hidden lg:block h-[808px] w-3/4 lg:border-r-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUd08eEUdwwghSsWD5TsQK9aAbijhI0956FaVxhpGYbCDC73h3hqHviDW1Ic2du_PXbytApsmWhAyhsiNMypngAH8d0xRIxrvLK_Pc6YtYGXkKw5f3TgbeGsmQpYrPEFnqIem6GGFx5vZvUEHeAzJAo=w662-h933-no?authuser=0"
+          class="object-cover h-full w-full " />
+      
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesje Dzieciece</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">7 ZDJĘĆ - 300 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 400 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">7 ZDJĘĆ - 300 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span>
+            </div>
+          </div>
+
+          <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
+            <ul>
+              <li>- zdjęcia po obróbce w formie elektronicznej</li>
+              <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+              <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+              <li>- możliwość dokupienia dodatkowych ujęć:</li>
+              <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+                <span class="inline-block mt-6"></li>
+            </ul>
+            <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+              - papierowe odbitki</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+      <div class="hidden lg:block h-[820px] w-3/4 lg:border-l-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEUindXJ2a4QPw8tCeQxHAZIYz_r5Ix9yw_JV2udNzbVP7An4bUBIhnalhEsnyvq18j_O1yG1YrlRcm8V6_V3b-cxNsQ4uWvkRhTNj0QORkQiWVixEkpsOQrZtb4a8oiiFV4cKVTTxmeseJVPBKub0Hf=w1400-h933-no?authuser=0"
+          class="object-cover h-1/2 w-full lg:border-b-4" />
+      
+        
+          <img
+            src="https://lh3.googleusercontent.com/pw/AL9nZEUHJ1dsAcoe3BDu7hyiBb8JKsGyF7sCqhR47_um71Ff9teDn2sWuI6s_RIhOmeanGk8uE2aswPv5iUlwKNaJSa8mIEtXhU6Y_Xc5P7-xbfsYpgqM9jumIJigBNdiuvxStY-Y9TdgOV-bkq2aBb6EH7_=w1400-h933-no?authuser=0"
+            class="object-cover h-1/2 w-full" />
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Sesje Swiateczne</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-6 text-headerColor tracking-widest ">
+              OFERTA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <div class="flex flex-col sm:flex-row justify-around mb-6">
+
+
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">6 ZDJĘĆ - 250 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">12 ZDJĘĆ - 350 zł</span>
+            </div>
+            <div>
+              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <strong>PAKIET 1</strong> </br>
+              <span class="inline-block my-6">6 ZDJĘĆ - 200 zł</span> </br>
+              <strong>PAKIET 2</strong> </br>
+              <span class="inline-block my-6">12 ZDJĘĆ - 300 zł</span>
+            </div>
+          </div>
+
+
+           <span class="border-b border-black inline-block my-6">PAKIET WAŻNY OD 15 LISTOPADA DO 15 STYCZNIA</span> </br>
+           <ul>
+            <li>- zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- konsultacje i pomoc w doborze stylizacji, miejsca</li>
+            <li>- porady jak się przygotować do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- możliwość dokupienia dodatkowych ujęć:</li>
+            <li> - możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span> 
+              <span class="inline-block mt-6"></li>
+          </ul>
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+      <div class="hidden lg:block h-[744px] w-3/4 lg:border-r-4">     
+       
+        <img
+          src="https://lh3.googleusercontent.com/pw/AL9nZEU4NbAWp8RETAntK2nUAghNfexwDipCeR6g2BEyCT-IV2UqjwCT0XMj9QYQ1OME3aeV3bpg9z2Dy4mWrrW2NRJZ6-mrS6EHBcqQFoI6_ED1uo9RPOlU9zUY0Ls5Ig8AsaAAg10K6LNAXsTJP_7tu2Tq=w623-h933-no?authuser=0"
+          class="object-cover h-full w-full " />
+      
+                     
+        
+      </div>
+      <div class="flex flex-col items-center justify-start w-full px-4">
+        <div class="header font-headerFont text-5xl sm:text-6xl  md:text-8xl text-center">
+          <h2>Mini Sesja</h2>
+        </div>
+        <div class="w-full">
+          <div class="flex items-center justify-center w-full">
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+            <div class="text-2xl m-4 xl:m-6 text-headerColor tracking-widest text-center ">
+              OFERTA SPECJALNA
+            </div>
+            <div class="w-1/4 h-[1px] bg-[#655339] rounded-sm "></div>
+          </div>
+        </div>
+        <div class="text-center text-xl">
+          <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa na terenie Krakowa</h3>
+          <span class="inline-block mb-6">5 zdjęć - 200zł</span> </br>
+          <em class="text-2xl my-4 inline-block">Pakiet obejmuje</em>
+          <ul>
+            <li>- Każdy rodzaj sesji w oferowanej przeze mnie usłudze </li>
+            <li>- Sesje na terenie Krakowa</li>
+            <li>- 30 minut trwania sesji</li>
+            <li>- Zdjęcia po obróbce w formie elektronicznej</li>
+            <li>- Konsultacje i pomoc w doborze stylizacji,miejsca</li>
+            <li>- Porady jak przygotować się do sesji, żeby czuć się swobodnie przed obiektywem</li>
+            <li>- Możliwość dokupienia dodatkowych ujęć: <span class="border-b border-black">1 zdjęcie/30zł</span>
+            </li>
+          </ul>
+    
+          <span class="inline-block mt-6"><strong>Za dodatkową opłatą: </strong></br>
+            - papierowe odbitki</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../src/menu.js"></script>
+</body>
+
 </html>
