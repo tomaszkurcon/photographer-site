@@ -16,19 +16,39 @@
 <body class="bg-primaryColor font-body leading-10 ">
 
   <div id="menu-bar"
-    class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor justify-between ">
+    class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor lg:justify-between max-w-[2500px] m-auto">
     <div id="hamburger"
-      class=" rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
+      class="lg:hidden rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
       <div class="w-[50px] h-[4px] bg-white hamburger-bar">
       </div>
 
     </div>
+   
+      <a class="hidden lg:flex items-center homeButton" href="../mainpage/index.html"><i class="fa-solid fa-house text-4xl pl-12 "></i></a>
+      <!-- <div class="ml-12 font-menuFont text-xl text-[#fff8d3] tracking-widest border-b-2 border-transparent hover:border-[#fff8d3]">STRONA GŁÓWNA</div> -->
+    <ul class="hidden lg:flex font-menuFont text-xl text-[#fff8d3] tracking-widest">
+      <li id="offerButton" class="border-b-2 border-[#fff8d3] group relative flex justify-center items-center"><a href="#">OFERTA <i class="fa-solid fa-angle-down ml-2"></i></a><ul id="offerButtonMenu" class="absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full">
+        <a href="#reportaz-okolicznosciowy"><li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li></a>
+        <a href="#reportaz-slubny"><li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li></a>
+        <a href="#sesje-dla-par"><li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li></a>
+        <a href="#sesja-kobieca"><li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li></a>
+        <a href="#sesje-ciazowe"><li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li></a>
+        <a href="#sesja-rodzinna"><li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li></a>
+        <a href="#sesje-dzieciece"><li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li></a>
+        <a href="#sesje-swiateczne"><li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li></a>
+        <a href="#mini-sesja"><li class="offer-menu p-2 h-full">Mini Sesja</li></a>  
+      </ul></li>
+      <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="">GALERIA</a></li>
+      <li class="border-b-2 border-transparent hover:border-[#fff8d3]"><a href="">VOUCHER</a></li>
+      <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="">RECENZJE</a></li>
+      <li class="mr-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./contact.html">KONTAKT</a></li>
+    </ul>
 
   </div>
 
   <div id="overlay" class="hidden backdrop-blur-sm fixed w-screen h-screen  top-[60px] left-0 bg-overlayColor z-[1000]">
     <nav id="navigation"
-      class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
+      class="font-menuFont flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
       <ul class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest ">
         <li class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
           <a href="../mainpage/index.html">STRONA GŁÓWNA</a>
@@ -84,7 +104,7 @@
   </section>
 
 
-  <section class="mt-16 sm:mt-32">
+  <section class="mt-16 sm:mt-32 section-margin">
     <div class="max-w-screen-2xl m-auto">
       <div class="px-2">
         <div class="flex items-center w-full justify-center  px-4 mt-4">
@@ -109,8 +129,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
+  <section id="reportaz-okolicznosciowy" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto">
       <div class="hidden lg:block w-3/4"><img
           src="https://lh3.googleusercontent.com/pw/AL9nZEW3W7f9am8p0iUDBSpUdWJvj5zGwawiEl3bMzAgsLa64fzBXpdSIOZ4TGrj92n7OabYxP0LQv7Ku_BIUNim7CVvYH3lT2178nYtCGHXc2hLZoghj3VLQ-q032YyYKS7SwbO86eOhH41TTU23wu9zavV=w1400-h933-no?authuser=0"
           class="h-full w-full object-cover" /></div>
@@ -153,8 +173,8 @@
   </section>
 
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+  <section id="reportaz-slubny" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  flex-row-reverse items-center">
       <div class="hidden lg:block w-3/4 h-[728px] lg:border-l-4"><img
           src="https://lh3.googleusercontent.com/pw/AL9nZEUZ1r2alpgK4ZXIHZz2VYqHqBzHnWrVbj6BrbcOGORkuo261HcRch5dHEX9CJ0_iEq03fypgWPXyrmnocVX0RpcsCzltZSBNBc31mCgiU6EoIg05QSQSwZqiJ8NFQpG6yBV1XHQDPgZPn7d-I_Q49Kp=w623-h933-no?authuser=0"
           class="h-full w-full object-cover" /></div>
@@ -193,8 +213,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32">
+  <section id="sesje-dla-par" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto">
       <div class="hidden lg:block max-h-[808px] w-3/4 lg:border-r-4">
 
         <img
@@ -261,8 +281,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+  <section id="sesja-kobieca" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto flex-row-reverse items-center">
       <div class="hidden  h-[808px] w-3/4 lg:grid grid-cols-2 grid-rows-5 gap-1 bg-white lg:border-l-4">
         <div class="col-span-2 row-span-2 ">
           <img
@@ -337,8 +357,8 @@
   </section>
 
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+  <section id="sesje-ciazowe" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  items-center">
       <div class="hidden lg:block h-[808px] w-3/4 lg:border-r-4">
 
         <img
@@ -401,8 +421,8 @@
   </section>
 
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+  <section id="sesja-rodzinna" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  flex-row-reverse items-center">
       <div class="hidden lg:block h-[808px] w-3/4 lg:border-l-4">
 
         <img
@@ -464,8 +484,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+  <section id="sesje-dzieciece" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  items-center">
       <div class="hidden lg:block h-[808px] w-3/4 lg:border-r-4">
 
         <img
@@ -526,8 +546,8 @@
   </section>
 
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 flex-row-reverse items-center">
+  <section id="sesje-swiateczne" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  flex-row-reverse items-center">
       <div class="hidden lg:block h-[820px] w-3/4 lg:border-l-4">
 
         <img
@@ -592,8 +612,8 @@
     </div>
   </section>
 
-  <section>
-    <div class="flex max-w-screen-2xl m-auto mt-16 sm:mt-32 items-center">
+  <section id="mini-sesja" class="mt-16 sm:mt-32 section-margin">
+    <div class="flex max-w-screen-2xl m-auto  items-center">
       <div class="hidden lg:block h-[744px] w-3/4 lg:border-r-4">
 
         <img
