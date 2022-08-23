@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../src/fonts.css" />
+    <link rel="stylesheet" href="../../src/dividerStyles.css" />
+    <link rel="stylesheet" href="../../src/design.css" />
+    <title>Kontakt</title>
+</head>
+
+<body class="bg-primaryColor font-body leading-10 ">
+    <div id="menu-bar"
+        class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor lg:justify-between max-w-[2500px] m-auto">
+        <div id="hamburger"
+            class="lg:hidden rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
+            <div class="w-[50px] h-[4px] bg-white hamburger-bar">
+            </div>
+
+        </div>
+
+        <a class="hidden lg:flex items-center homeButton" href="../mainpage/index.html"><i
+                class="fa-solid fa-house text-4xl pl-12 "></i></a>
+        <!-- <div class="ml-12 font-menuFont text-xl text-[#fff8d3] tracking-widest border-b-2 border-transparent hover:border-[#fff8d3]">STRONA GŁÓWNA</div> -->
+        <ul class="hidden lg:flex font-menuFont text-xl text-[#fff8d3] tracking-widest">
+            <li id="offerButton"
+                class=" group relative flex justify-center items-center border-b-2 border-transparent hover:border-[#fff8d3]">
+                <a href="../subpages/offer.html">OFERTA <i class="fa-solid fa-angle-down ml-2"></i></a>
+                <ul id="offerButtonMenu"
+                    class="absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full">
+                    <a href="./offer.html#reportaz-okolicznosciowy">
+                        <li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li>
+                    </a>
+                    <a href="./offer.html#reportaz-slubny">
+                        <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+                    </a>
+                    <a href="./offer.html#sesje-dla-par">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+                    </a>
+                    <a href="./offer.html#sesja-kobieca">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li>
+                    </a>
+                    <a href="./offer.html#sesje-ciazowe">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li>
+                    </a>
+                    <a href="./offer.html#sesja-rodzinna">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li>
+                    </a>
+                    <a href="./offer.html#sesje-dzieciece">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li>
+                    </a>
+                    <a href="./offer.html#sesje-swiateczne">
+                        <li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li>
+                    </a>
+                    <a href="./offer.html#mini-sesja">
+                        <li class="offer-menu p-2 h-full">Mini Sesja</li>
+                    </a>
+                </ul>
+            </li>
+            <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="">GALERIA</a></li>
+            <li class="border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./voucher.html">VOUCHER</a></li>
+            <li class="mx-8 border-b-2 border-[#fff8d3]"><a href="">RECENZJE</a></li>
+            <li class="mr-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./contact.html">KONTAKT</a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div id="overlay"
+        class="hidden backdrop-blur-sm fixed w-screen h-screen  top-[60px] left-0 bg-overlayColor z-[1000]">
+        <nav id="navigation"
+            class="font-menuFont  flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
+            <ul class="flex flex-col  items-center  justify-around  text-3xl text-[#fff8d3] tracking-widest ">
+                <li class="text-center my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="../mainpage/index.html">STRONA GŁÓWNA</a>
+                </li>
+                <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="../subpages/offer.html">OFERTA</a>
+                </li>
+                <li class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="">GALERIA</a>
+                </li>
+            </ul>
+            <ul class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest">
+                <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="./voucher.html">VOUCHER</a>
+                </li>
+                <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="">RECENZJE</a>
+                </li>
+                <li class="my-4  border-b-4 border-transparent hover:border-[#fff8d3]">
+                    <a href="./contact.html">KONTAKT</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="mt-16 sm:mt-32">
+        <div class="flex max-w-screen-2xl m-auto px-4 justify-center">
+            <div class="flex flex-col items-end mt-16 mr-4">
+                <div class="mb-4"><img src="https://lh3.googleusercontent.com/pw/AL9nZEWh8g5v4U1zDQ-RqOlTdb73fXVTlLJPmJ_kDBZbXESUA2Cz8PgDES3tK47tBMzsNWLKh5u9OHjnvsOsuJld2I53z9atEg3ycmgMrPvEBOkcfwh1sqsjV0UGkPJMyx5zgnenaXDsS8_7NtHfPYPPhPx1=w672-h186-no?authuser=0 " class="object-cover"/></div>
+                <div><img src="https://lh3.googleusercontent.com/pw/AL9nZEXQrxWzw_N4A4F_N0lIk-DElAzFeA4LlGdIvhiC78MiVRgDLDIkkYq3qs9gPG60BFjScKgA00eeYcUTKYUnBeVBfrmAa0oZTjkt4ezmzfDyP8xyhfYw_BQkHovbfM2YnerAkejP2RU8Vud5nBiEi1IY=w624-h288-no?authuser=0"/></div>
+            </div>
+            <div>
+                <div class="mb-4"><img src="https://lh3.googleusercontent.com/pw/AL9nZEW45VOFBPUaKJtVEjuno9f0_n-fkReg2D1sT1xtBgUH9UkGg9DdbShIwQah-XnTDJpbjIrIbVbNkXflkWl_5cw0_UrbY4Cjdy0nabCkp8OTcVcz-Sza8we6-VmFxNLEo0woS9VW6A1W4zN3d4ZxATyB=w735-h262-no?authuser=0" /></div>
+                <div><img src="https://lh3.googleusercontent.com/pw/AL9nZEVX2N4LFVUxNnD91_gSxMBC44NYPvS7H3-nNgZcfMPdnFaJU0maMTPpukGV28Ok8REvr1eHsXjIGvgtKyJdLqkciZNfmSZZx1PK-q614xOkGEbvotEzZiAHBxozvK3ukUCQeR3UPO9WgCDRPYkjj5wD=w615-h225-no?authuser=0" /></div>
+            </div>
+         
+        </div>
+    </section>
+    <footer>
+        <div
+            class=" bg-gray-100 p-[20px] flex items-center flex-col justify-center sm:flex-row sm:justify-around pl-[40px]">
+            <div class="h-full">
+                <img src="https://lh3.googleusercontent.com/pw/AL9nZEXp9-ozGisR6tLDMjqG_FY2bJ7CVsN7omlpYN0AWGNic8EKfB4OZio1TB7K65iL1XtTDS7SUWsbpoCy9O6r46mF0rkzqlix5i2yR1BQfnhJ02pcpOdbLOEp309mHxuUXumgIp-l3wZOvpM2qNzCDtTv=w534-h387-no?authuser=0"
+                    class="h-[150px]" />
+            </div>
+            <div class="text-gray-500 text-xl flex items-center sm:flex-row flex-col">
+                <span class="my-4 sm:my-0 text-sm md:text-xl">&#x24D2 2022 Wszelkie prawa zastrzeżone</span>
+                <div>
+                    <i class="fa-brands fa-facebook-f mx-4"></i>
+                    <i class="fa-brands fa-instagram text-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/36419b9715.js" crossorigin="anonymous"></script>
+    <script src="../../src/menu.js"></script>
+</body>
+
+</html>
