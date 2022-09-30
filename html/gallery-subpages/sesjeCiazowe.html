@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../src/fonts.css" />
+    <link rel="stylesheet" href="../../src/dividerStyles.css" />
+    <link rel="stylesheet" href="../../src/design.css" />
+    <title>Galeria - Sesje ciążowe - Magdalena Grzesiakowska</title>
+  </head>
+
+  <body class="bg-primaryColor font-body leading-10">
+    <div
+      id="menu-bar"
+      class="w-full h-[60px] backdrop-blur-sm flex items-center sticky top-0 z-[1001] bg-overlayColor justify-between max-w-[2500px] m-auto"
+    >
+      <div
+        id="hamburger"
+        class="lg:hidden rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]"
+      >
+        <div class="w-[50px] h-[4px] bg-white hamburger-bar"></div>
+      </div>
+
+      <div
+        class="lg:hidden mr-14 font-menuFont text-2xl text-[#fff8d3] tracking-widest"
+      >
+        <span
+          id="galleryButton"
+          class="border-b-2 border-[#fff8d3] group relative flex justify-center items-center"
+          >GALERIA<i class="fa-solid fa-angle-down pl-4"></i>
+          <ul
+            id="galleryButtonMenu"
+            class="absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full"
+          >
+            <a href="../gallery-subpages/reportazOkolicznosciowy.html">
+              <li class="offer-menu p-2 border-b-2 h-full">
+                Reportaż Okolicznościowy
+              </li>
+            </a>
+            <a href="../gallery-subpages/reportazSlubny.html">
+              <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+            </a>
+            <a href="../gallery-subpages/sesjeDlaPar.html">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+            </a>
+            <a href="../gallery-subpages/sesjeKobiece.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Kobiece</li>
+            </a>
+            <a href="../gallery-subpages/sesjeCiazowe.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Ciazowe</li>
+            </a>
+            <a href="../gallery-subpages/sesjeRodzinne.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Rodzinne</li>
+            </a>
+            <a href="../gallery-subpages/sesjeDzieciece.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Dzieciece</li>
+            </a>
+            <a href="../gallery-subpages/sesjeSwiateczne.html">
+              <li class="p-2 h-full offer-menu">Sesje Swiateczne</li>
+            </a>
+          </ul>
+        </span>
+      </div>
+
+      <a
+        class="hidden lg:flex items-center homeButton"
+        href="../mainpage/index.html"
+        ><i class="fa-solid fa-house text-4xl pl-12"></i
+      ></a>
+
+      <ul
+        class="hidden lg:flex font-menuFont text-xl text-[#fff8d3] tracking-widest"
+      >
+        <li
+          class="menuItemButton border-b-2 border-transparent hover:border-[#fff8d3] group relative flex justify-center items-center"
+        >
+          <a href="../subpages/offer.html"
+            >OFERTA <i class="fa-solid fa-angle-down ml-2"></i
+          ></a>
+          <ul
+            class="submenuOffer absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full"
+          >
+            <a href="../subpages/offer.html#reportaz-okolicznosciowy">
+              <li class="offer-menu p-2 border-b-2 h-full">
+                Reportaż Okolicznościowy
+              </li>
+            </a>
+            <a href="../subpages/offer.html#reportaz-slubny">
+              <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+            </a>
+            <a href="../subpages/offer.html#sesje-dla-par">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+            </a>
+            <a href="../subpages/offer.html#sesja-kobieca">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li>
+            </a>
+            <a href="../subpages/offer.html#sesje-ciazowe">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li>
+            </a>
+            <a href="../subpages/offer.html#sesja-rodzinna">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li>
+            </a>
+            <a href="../subpages/offer.html#sesje-dzieciece">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li>
+            </a>
+            <a href="../subpages/offer.html#sesje-swiateczne">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li>
+            </a>
+            <a href="../subpages/offer.html#mini-sesja">
+              <li class="offer-menu p-2 h-full">Mini Sesja</li>
+            </a>
+          </ul>
+        </li>
+
+        <li
+          class="menuItemButton mx-8 border-b-2 border-[#fff8d3] group relative flex justify-center items-center"
+        >
+          <a href="../subpages/gallery.html">GALERIA <i class="fa-solid fa-angle-down ml-2"></i></a>
+          <ul
+            class="submenuGallery absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full -mt-[30px]"
+          >
+            <a href="./reportazOkolicznosciowy.html">
+              <li class="offer-menu p-2 border-b-2 h-full">
+                Reportaż Okolicznościowy
+              </li>
+            </a>
+            <a href="./reportazSlubny.html">
+              <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+            </a>
+            <a href="./sesjeDlaPar.html">
+              <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+            </a>
+            <a href="./sesjeKobiece.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Kobiece</li>
+            </a>
+            <a href="./sesjeCiazowe.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Ciazowe</li>
+            </a>
+            <a href="./sesjeRodzinne.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Rodzinne</li>
+            </a>
+            <a href="./sesjeDzieciece.html">
+              <li class="p-2 h-full offer-menu border-b-2">Sesje Dzieciece</li>
+            </a>
+            <a href="./sesjeSwiateczne.html">
+              <li class="p-2 h-full offer-menu">Sesje Swiateczne</li>
+            </a>
+          </ul>
+        </li>
+        <li class="border-b-2 border-transparent hover:border-[#fff8d3]">
+          <a href="../subpages/voucher.html">VOUCHER</a>
+        </li>
+        <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]">
+          <a href="../subpages/reviews.html">RECENZJE</a>
+        </li>
+        <li class="mr-8 border-b-2 border-transparent hover:border-[#fff8d3]">
+          <a href="../subpages/contact.html">KONTAKT</a>
+        </li>
+      </ul>
+    </div>
+
+    <div
+      id="overlay"
+      class="hidden backdrop-blur-sm fixed w-screen h-screen top-[60px] left-0 bg-overlayColor z-[1000]"
+    >
+      <nav
+        id="navigation"
+        class="font-menuFont flex flex-col justify-center items-center absolute top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2"
+      >
+        <ul
+          class="flex flex-col items-center justify-around text-3xl text-[#fff8d3] tracking-widest"
+        >
+          <li
+            class="text-center my-4 border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="../mainpage/index.html">STRONA GŁÓWNA</a>
+          </li>
+          <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="../subpages/offer.html">OFERTA</a>
+          </li>
+          <li
+            class="my-4 box-border border-b-4 border-transparent hover:border-[#fff8d3]"
+          >
+            <a href="../subpages/gallery.html">GALERIA</a>
+          </li>
+        </ul>
+        <ul
+          class="flex flex-col items-center justify-center text-3xl text-[#fff8d3] tracking-widest"
+        >
+          <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="../subpages/voucher.html">VOUCHER</a>
+          </li>
+          <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="../subpages/reviews.html">RECENZJE</a>
+          </li>
+          <li class="my-4 border-b-4 border-transparent hover:border-[#fff8d3]">
+            <a href="../subpages/contact.html">KONTAKT</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <section>
+      <div class="flex max-w-screen-2xl m-auto items-center px-3">
+        <!-- <div class="grid grid-cols-12">
+          <img src=""/>
+          <img src=""/>
+          <img src=""/>
+          <img src=""/>
+          <img src=""/>
+          <img src=""/>
+        </div> -->
+
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 bg-white gap-[8px]">
+         <!-- column 1 -->
+          <div class="column  flex flex-col gap-y-[8px]">
+            <img src="https://lh3.googleusercontent.com/pw/AL9nZEWwrsdZK1S_Zr8RK2iwvdMuJhDpuT1ooiKIljX62fT_M5g-2HlYDE7wx2woAbhc7Jl3dlbNv-0Csu8FeTtJf4tP8a4re1-FN90ZV5nGnx0wmLWTcIC5DS76NFOvAc6_lQ0HM9QMwDLECUWL-Ju4W5Xl=w614-h920-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEU_ajuVYG4A_WpSHGE1z5eHZTG2DZYXRm4Kr8KziqCW2bUaIm9q2wPwLE0yMvyT8szFaevX-oEOa2zewS--j1WybUo3cUEXs9c20uMotDtwfGkWXitVN7G2MlB_-pOhyLR71Q94QVQcGtPtD6r_q3x_=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEVPdM3vGZ0_pEDs_XSr6SjMAP25dWKMv2T5e4LC-Iv_qzp2qAG1Uxuf4_hD6hX2KJSDNEOX1iGQi_BPlQHUmh5diKjxn53cdk1mc8NAfcIgszKz2GYeugVR9iahrf5HQNlV37BzSLFeiHnDP6vpNERQ=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUKpO1HwOaBewI48Q26aPmfxiGUPx2dX4iDHLTa5EpRyTVbypd_wsnjEWFPoOMaWvtLITUh_f-Xtzo0e7ImZLALlZpLnHXZPqTZ2Imsu2bS6QViSyDmkRt5_byUTvDVpN5vKINjRvpqfp-_b4eHhSSg=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEWc3RzEi8dncrbxz0p6ve6ik7up3nf8TWn5wKzotbkQcJNOECOZzulzniy4c5EQLNELN5TUtmD3ocyXWSfYAlnhAUPlR2ll065cBrTJFd2kJtIFXOS9jRvZhp9TL0tJN5MLa4Q7qxdprYrJsQSt0h8M=w623-h933-no?authuser=0">
+            <img class="xl:grow object-cover" src="https://lh3.googleusercontent.com/pw/AL9nZEWCmjgJMNSSMtcdkQnE_E5CiD8qlTA-4suw4rKN89BqKqcVqWICNOxI7Lpy19Qs-fLn_IVKxT-au72z8yM3nV40YZhZKvMuf-obKJpJhLX2BOW9g06Ti0BGzfjBwabkyeUvsWIN3pEkeYuWs3t0QWEz=w623-h933-no?authuser=0" />
+           
+        
+          </div>
+            <!-- column 2 -->
+          <div class="column flex flex-col gap-y-[8px]">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEX7MWdlStJ5wJ3PaayYTQ2LDkpKv78s-pH86lAmNdU0-CC4B7HwPOD5r7sxMkby_Nm8VYhY4ta4FnfULX1N_ijjSvqmSLC7cJ4Upluxle5UGqiu5Gojs4Awokl4v0tyBZEY95fAVqAxl5_96wmaQItS=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUgumY8jWOzUFuY3cFf8G7rC0J-DuqYVJxPmJeoEpfWYXAtqCOmM6a2rROi_ZTjr5jo_hyaOVYgRbQYgp2EMnmvfIY_sNuxrEPB7j-Jd7BTCrpyTfUZ_8EhKTndER3Qg838iB846AkCRxYNew4aWnUl=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUSj8TTDJMU34eUfuGjlRYZwPnET9AX5Awt0Tt6SGiT3b_7k8JIGA3uHwJBSqOmRHkRJrx_vUSMIa1LyGz1lFRuebU67Pdg4SnzqVOMISGyq-sSJT97fUHhejet7Bw9rDR_2n0fZsz1j971ePTw1u-z=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEWMxh5RgT0uNf5QPCNQS27XTl8LdT6bk2ESqBv23DMOnhnXtfDk5KFZR4ZQpZXZaxkWPp6o6hDj94CmlRokqRMPaRPykx6tSzakahXrmIZrDc3wFoSZ-cKGFCBGQz_UbB9EC61wJM3qnAHIv2Da1Rzp=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUt-XKLPK222SkiTMcnWg2ww4FwXZ12_C1yN8rHsZjY9EMwkB5E7ErmmzFMY1VKbS8sGpbnX-pLx1NDRYwrZxSTaIA8DHa4DuwL4X0ysr3F1JSuU3hxiXfsSVB-BxX74tat6wAHVnOc8zAx_ZWO6iGJ=w623-h933-no?authuser=0">
+            <img id="sesja-ciazowa-zdjecie-1" class="object-cover" src="https://lh3.googleusercontent.com/pw/AL9nZEVXS0A1xAEZG2dswmfTz0IyY_ZgwlQVX1tgPFCqnstf2mtEN_s0KGmooAqBYRQD3klZvn9dGtX2aRn1n-dW3rDVR-TDmFNKQsEwTxU_mIl-u_VIRc4rJRl1XUoXzJohWxJUVAL_w2beauYXhEoNj67u=w623-h933-no?authuser=0"/>
+         
+          </div>
+            <!-- column 3 -->
+          <div class="column flex flex-col gap-y-[8px]">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUAsjRTKgoAbHtznEBol-IHETjTpvcxPXJ3DctSIUmyvHME3O66w8cgTNCXEOchqtvSqnFaecnGKAzThI_nzbAqeIGZLtwaayliYU9KJdnJdsIKpUFY9L2VT7EuDa5wVa3jvRRbEXcq5-2SxSpYlVkO=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEW4bF7BD2rkB0A7PrP6Nh49EDHGUc-_9Ic8gXXI359mS-do5Wj7LVtm52WnpSfmIEy_k_5ojikcOfhQ53bJV6IsEk5AQAXo5YZQzpWkfWeZ_D5zhYQAmIcXrVgCJ3GcRIGtxawwp6oLaFk1JTacwe9H=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEX8jlkGUv2le9bkxNKh9_C5V3B8173lNDHwR4P1H8mEPNrWTpzOOQBiR0Ptgeyw53sPbZrzx_fXD8nPSTpi5a18la9ZC_eBT0GYPjLHLHO2Nj_RadLCInJWD2jU0ggZeFwkI3KZhkBVkiSTVfSc6lez=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUT2mA79HmXU1HfD0iIBevUrPeLhEfDIZYNLG7puuTWcOIC1RburH9PJswlwKSRfEwoNicfH_1b7iKC6ACFNkZehi1kgkI1AxlDlj8riNKQYRL0WX6OoXTgq-2Zrgfm65waybyLkC0u12WgI-JIjJxt=w623-h933-no?authuser=0">
+            <img class="object-cover grow xl:grow-0" src="https://lh3.googleusercontent.com/pw/AL9nZEWKUj0G4DTNtSp7G4qR6hTx7F2Jh1Rejy1SiuJj-jgbd4wfszOycpFK3lfgImSY6UVKqYWVq2i9xQDp7DaJBRLSw740WvA-ywrJqAjEg6nr2wuQsc8d3aFu7eAUY1OL2tuCfvehUOnZ_rRoon82PEhX=w623-h933-no?authuser=0">
+            
+           
+          </div>
+            <!-- column 4 -->
+          <div class="column flex flex-col gap-y-[8px]">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEWUjhUoByK9ANLUoIHredzdz0n1IOV-TH8DuFTD8Z-QumyVOrKPeE_axYfAna0m6_zGBLbFYyPwYwm9acptiWK5GUdt3JHMCQvfX649wKj2IR9nClgoulKQL9geaOp5H9SprxEop6FYsDGDRXXV2FoE=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEWBImyxGWHgdCQeNmDKzvaFGF8EE_r2-teZua3ZdIZ79s4FQlWV1z3LCHtFGx8khJovdYzVL-cwMo_XZKehQf17owFyDw8kKM6WUBQtQY_BiKXNrmYrRH5-QRkdvXqy4pgNDLLbUP9C0chQCOgHlcJ2=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEUSictuXPMEjszZC05xkMg-SI7GGKYaaUkOQ671BDIctVpAYPhj2i15leCblGLPB4-6oe8kaby1eSoFM2_xFuASoUot-gui2IS5fxiDWTodcwatYMbD89oBNW39AdHXvF-gy9iry-WXXh4Mbg498dd0=w623-h933-no?authuser=0">
+            <img  src="https://lh3.googleusercontent.com/pw/AL9nZEW41cg9GGo-4GPYw4s9L9wzNNVxy1vccz_bq9Y7nH8QIxhA9vTu_ADQsdXsx2ciBUOoF7lWXj9f0w4AC8068lvk_80OUg4eYawHMCHVQAAF_26iJgwLfBYD95mz6YBsTE635jZ3Faa1tDpWWT92ee8y=w1400-h933-no?authuser=0">
+         <img src="https://lh3.googleusercontent.com/pw/AL9nZEUC0tHk-A_u0LC1KwggJRY2TmAyYUj182eIjlYPkhkHlLaoGqFqjxmPEdayI5NmjlSAz-6ur-30MHMJBloYy0er4nnJR6XpkaannGYDHJJyQg6g1WP5-bl_7ya8G3Z99QIeWTz9kHNHO-xYNOF2hVQG=w623-h933-no?authuser=0"/>
+         <img class="grow object-cover" src="https://lh3.googleusercontent.com/pw/AL9nZEWbHJpF_MDYJZE-V5Y5woESaRccc8ainMG5TJURUCbPtI7jS_XKMeQEJQ4ORlcFID7ImfXAtPo4pczYGnpr-GKLphDNAFeh6WH4ZrZ7yP8W3q9PT7M9GdJxaBii5wRtW0mX0CzdPafcNZ3J5SRx9jUZ=w623-h933-no?authuser=0"/>
+            
+          </div>
+                
+          
+         
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/36419b9715.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../src/menu.js"></script>
+  </body>
+</html>

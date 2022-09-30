@@ -9,36 +9,122 @@
   <link rel="stylesheet" href="../../src/fonts.css" />
   <link rel="stylesheet" href="../../src/dividerStyles.css" />
   <link rel="stylesheet" href="../../src/design.css" />
-  <title>Oferta</title>
+  <title>Oferta - Magdalena Grzesiakowska</title>
 </head>
 
 
-<body class="bg-primaryColor font-body leading-10 ">
+<body class="bg-primaryColor font-body sm:leading-10 ">
 
   <div id="menu-bar"
-    class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor lg:justify-between max-w-[2500px] m-auto">
+    class="w-full h-[60px] backdrop-blur-sm  flex items-center sticky top-0 z-[1001] bg-overlayColor justify-between max-w-[2500px] m-auto">
     <div id="hamburger"
       class="lg:hidden rounded-md cursor-pointer h-[80px] w-[80px] flex justify-center items-center ml-4 z-[1001]">
       <div class="w-[50px] h-[4px] bg-white hamburger-bar">
       </div>
 
     </div>
-   
-      <a class="hidden lg:flex items-center homeButton" href="../mainpage/index.html"><i class="fa-solid fa-house text-4xl pl-12 "></i></a>
-      <!-- <div class="ml-12 font-menuFont text-xl text-[#fff8d3] tracking-widest border-b-2 border-transparent hover:border-[#fff8d3]">STRONA GŁÓWNA</div> -->
-    <ul class="hidden lg:flex font-menuFont text-xl text-[#fff8d3] tracking-widest">
-      <li id="offerButton" class="border-b-2 border-[#fff8d3] group relative flex justify-center items-center"><a href="#">OFERTA <i class="fa-solid fa-angle-down ml-2"></i></a><ul id="offerButtonMenu" class="absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full">
-        <a href="#reportaz-okolicznosciowy"><li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li></a>
-        <a href="#reportaz-slubny"><li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li></a>
-        <a href="#sesje-dla-par"><li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li></a>
-        <a href="#sesja-kobieca"><li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li></a>
-        <a href="#sesje-ciazowe"><li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li></a>
-        <a href="#sesja-rodzinna"><li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li></a>
-        <a href="#sesje-dzieciece"><li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li></a>
-        <a href="#sesje-swiateczne"><li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li></a>
-        <a href="#mini-sesja"><li class="offer-menu p-2 h-full">Mini Sesja</li></a>  
-      </ul></li>
-      <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="">GALERIA</a></li>
+    <div class="lg:hidden mr-14 font-menuFont text-2xl text-[#fff8d3] tracking-widest">
+      <span id="offerButton" class="border-b-2 border-[#fff8d3] group relative flex justify-center items-center">OFERTA<i class="fa-solid fa-angle-down  pl-4"></i>
+        <ul id="offerButtonMenu"
+          class=" absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full -mt-[10px]">
+          <a href="#reportaz-okolicznosciowy">
+            <li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li>
+          </a>
+          <a href="#reportaz-slubny">
+            <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+          </a>
+          <a href="#sesje-dla-par">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+          </a>
+          <a href="#sesja-kobieca">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li>
+          </a>
+          <a href="#sesje-ciazowe">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li>
+          </a>
+          <a href="#sesja-rodzinna">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li>
+          </a>
+          <a href="#sesje-dzieciece">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li>
+          </a>
+          <a href="#sesje-swiateczne">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li>
+          </a>
+          <a href="#mini-sesja">
+            <li class="offer-menu p-2 h-full">Mini Sesja</li>
+          </a>
+        </ul>
+      </span>
+    </div>
+
+    <a class="hidden lg:flex items-center homeButton" href="../mainpage/index.html"><i
+        class="fa-solid fa-house text-4xl pl-12 "></i></a>
+    <!-- <div class="ml-12 font-menuFont text-xl text-[#fff8d3] tracking-widest border-b-2 border-transparent hover:border-[#fff8d3]">STRONA GŁÓWNA</div> -->
+    <ul class="hidden lg:flex font-menuFont text-xl text-[#fff8d3] tracking-widest ">
+      <li class="menuItemButton border-b-2 border-[#fff8d3]  group relative flex justify-center items-center"><a
+          href="#">OFERTA <i class="fa-solid fa-angle-down ml-2"></i></a>
+        <ul class=" submenuOffer absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full">
+          <a href="#reportaz-okolicznosciowy">
+            <li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li>
+          </a>
+          <a href="#reportaz-slubny">
+            <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+          </a>
+          <a href="#sesje-dla-par">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+          </a>
+          <a href="#sesja-kobieca">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesja Kobieca</li>
+          </a>
+          <a href="#sesje-ciazowe">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Ciążowe</li>
+          </a>
+          <a href="#sesja-rodzinna">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesja Rodzinna</li>
+          </a>
+          <a href="#sesje-dzieciece">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Dziecięce</li>
+          </a>
+          <a href="#sesje-swiateczne">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje Świąteczne</li>
+          </a>
+          <a href="#mini-sesja">
+            <li class="offer-menu p-2 h-full">Mini Sesja</li>
+          </a>
+        </ul>
+      </li>
+      <li
+        class="menuItemButton mx-8 border-b-2 border-transparent hover:border-[#fff8d3]  group relative flex justify-center items-center">
+        <a href="./gallery.html">GALERIA <i class="fa-solid fa-angle-down ml-2"></i></a>
+        <ul class="submenuGallery absolute text-center bg-overlayColor backdrop-blur-md rounded-md -translate-y-full -mt-[30px]">
+          <a href="../gallery-subpages/reportazOkolicznosciowy.html">
+            <li class="offer-menu  p-2 border-b-2 h-full">Reportaż Okolicznościowy</li>
+          </a>
+          <a href="../gallery-subpages/reportazSlubny.html">
+            <li class="offer-menu p-2 border-b-2 h-full">Reportaż Ślubny</li>
+          </a>
+          <a href="../gallery-subpages/sesjeDlaPar.html">
+            <li class="offer-menu p-2 border-b-2 h-full">Sesje dla par</li>
+          </a>
+          <a href="../gallery-subpages/sesjeKobiece.html">
+            <li class=" p-2  h-full offer-menu  border-b-2">Sesje Kobiece</li>
+          </a>
+          <a href="../gallery-subpages/sesjeCiazowe.html">
+            <li class=" p-2  h-full offer-menu  border-b-2">Sesje Ciazowe</li>
+          </a>
+          <a href="../gallery-subpages/sesjeRodzinne.html">
+            <li class=" p-2  h-full offer-menu  border-b-2">Sesje Rodzinne</li>
+          </a>
+          <a href="../gallery-subpages/sesjeDzieciece.html">
+            <li class=" p-2  h-full offer-menu  border-b-2">Sesje Dzieciece</li>
+          </a>
+          <a href="../gallery-subpages/sesjeSwiateczne.html">
+            <li class=" p-2  h-full offer-menu">Sesje Swiateczne</li>
+          </a>
+        </ul>
+      </li>
+      <!-- <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./gallery.html">GALERIA</a></li> -->
       <li class="border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./voucher.html">VOUCHER</a></li>
       <li class="mx-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./reviews.html">RECENZJE</a></li>
       <li class="mr-8 border-b-2 border-transparent hover:border-[#fff8d3]"><a href="./contact.html">KONTAKT</a></li>
@@ -57,7 +143,7 @@
           <a href="../subpages/offer.html">OFERTA</a>
         </li>
         <li class="my-4  box-border border-b-4 border-transparent hover:border-[#fff8d3]">
-          <a href="">GALERIA</a>
+          <a href="./gallery.html">GALERIA</a>
         </li>
       </ul>
       <ul class="flex flex-col  items-center justify-center  text-3xl text-[#fff8d3] tracking-widest">
@@ -82,7 +168,7 @@
         <div class="flex items-center w-full justify-center  px-4 mt-4">
           <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
           <div class="font-headerFont text-5xl sm:text-6xl w-[300px] md:text-8xl md:w-[500px] text-center">
-            <h1 class="header">Podstawowe Informacje dla klientow</h1>
+            <h1 class="header">Podstawowe Informacje dla Klientow</h1>
           </div>
           <div class="w-1/5 h-[1px] bg-[#655339] rounded-sm"></div>
         </div>
@@ -193,11 +279,11 @@
         </div>
         <div class="text-center text-xl">
           <strong>PAKIET 1</strong> </br>
-          <span class="inline-block my-6">800 ZDJĘĆ - 3000 zł</span> </br>
+          <span class="inline-block my-6">500 ZDJĘĆ - 3000 zł</span> </br>
           <strong>PAKIET 2</strong> </br>
-          <span class="inline-block my-6">800 ZDJĘĆ + PAMIĄTKOWY ALBUM </br>
+          <span class="inline-block my-6">500 ZDJĘĆ + PAMIĄTKOWY ALBUM </br>
             Album 30x30 cm </br>
-            30 rozkładówek </br> - 4000 zł </span> </br>
+            20 rozkładówek </br> - 4000 zł </span> </br>
           <em class="text-2xl my-4 inline-block">Pakiety obejmują:</em>
 
           <ul>
@@ -246,14 +332,14 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class="text-3xl my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 400 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 400 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 450 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class="text-3xl  my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
               <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
@@ -321,18 +407,18 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class=" text-3xl my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 350 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 450 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class="text-3xl my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 300 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 350 zł</span>
             </div>
           </div>
 
@@ -386,18 +472,18 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class="text-3xl my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 350 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 450 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class=" text-3xl my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 300 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 350 zł</span>
             </div>
           </div>
 
@@ -450,18 +536,18 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class="text-3xl  my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 350 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 450 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 450 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class="text-3xl my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 300 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 300 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">15 ZDJĘĆ - 350 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">15 ZDJĘĆ - 350 zł</span>
             </div>
           </div>
 
@@ -513,18 +599,18 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class="text-3xl my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">7 ZDJĘĆ - 300 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">7 ZDJĘĆ - 300 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 400 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 400 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class="text-3xl my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">7 ZDJĘĆ - 300 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">7 ZDJĘĆ - 300 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">10 ZDJĘĆ - 350 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">10 ZDJĘĆ - 350 zł</span>
             </div>
           </div>
 
@@ -579,18 +665,18 @@
 
 
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja studyjna</h3>
+              <h3 class=" text-3xl my-6">Sesja studyjna</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">6 ZDJĘĆ - 250 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">6 ZDJĘĆ - 250 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">12 ZDJĘĆ - 350 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">12 ZDJĘĆ - 350 zł</span>
             </div>
             <div>
-              <h3 class="lg:text-3xl text-4xl my-6">Sesja Plenerowa</h3>
+              <h3 class=" text-3xl my-6">Sesja Plenerowa</h3>
               <strong>PAKIET 1</strong> </br>
-              <span class="inline-block my-6">6 ZDJĘĆ - 200 zł</span> </br>
+              <span class="inline-block mb-6 sm:mt-6">6 ZDJĘĆ - 200 zł</span> </br>
               <strong>PAKIET 2</strong> </br>
-              <span class="inline-block my-6">12 ZDJĘĆ - 300 zł</span>
+              <span class="inline-block mb-6 sm:mt-6">12 ZDJĘĆ - 300 zł</span>
             </div>
           </div>
 
@@ -669,8 +755,8 @@
       <div class="text-gray-500 text-xl flex items-center sm:flex-row flex-col">
         <span class="my-4 sm:my-0 text-sm md:text-xl">&#x24D2 2022 Wszelkie prawa zastrzeżone</span>
         <div>
-          <i class="fa-brands fa-facebook-f mx-4"></i>
-          <i class="fa-brands fa-instagram text-2xl"></i>
+          <a target="_blank" href="https://www.facebook.com/GrzesiakowskaFotografia/"><i class="fa-brands fa-facebook-f mx-4"></i></a>
+          <a target="_blank" href="https://www.instagram.com/MGRZESIAKOWSKA_FOTOGRAF/"><i class="fa-brands fa-instagram text-2xl"></i></a>
         </div>
       </div>
     </div>

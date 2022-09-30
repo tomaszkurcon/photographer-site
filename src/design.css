@@ -1,3 +1,6 @@
+.home-page-img {
+  box-shadow: -7px 4px 40px 20px rgba(0, 0, 0, 0.25);
+}
 .hamburger-bar {
   transition: all 0.5s ease-in-out;
   border-radius: 50px;
@@ -48,11 +51,20 @@
 p {
   word-spacing: 3px;
 }
-#offerButton:hover #offerButtonMenu{
-  animation: slidein 0.5s;
+
+.menuItemButton:hover .submenuOffer {
+  animation: slideinOffer 0.5s;
   animation-fill-mode: forwards;
 }
-@keyframes slidein {
+.menuItemButton:hover .submenuGallery {
+  animation: slideinGallery 0.5s;
+  animation-fill-mode: forwards;
+}
+.mobile-submenu-offer {
+  animation: slideinGallery 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideinOffer {
   0% {
     
     opacity:0;
@@ -70,6 +82,24 @@ p {
     opacity:1;
   }
 }
+@keyframes slideinGallery {
+  0% {
+    
+    opacity:0;
+  }
+  25% {
+    opacity:0;
+    transform: translateY(48%);
+  }
+50% {
+    opacity:0.5;
+    transform: translateY(56.8%);
+}
+  100% {
+    transform: translateY(56.8%);
+    opacity:1;
+  }
+}
 .offer-menu {
   transition-duration: 0.2s;
 }
@@ -80,7 +110,71 @@ p {
 .section-margin::before {
   content: '';
   display: block;
-  height: 57px;
-  margin-top: -57px;
+  height: 70px;
+  margin-top: -70px;
   visibility: hidden;
 }
+
+.image-overlay {
+  transition: .4s ease;
+  position: absolute;
+  opacity:0.8;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0px 0px 4px rgb(241, 146, 135);
+
+}
+
+
+
+.gallery-link-container:hover .image-overlay {
+  opacity: 1;
+  text-shadow: 0px 0px 16px rgb(241, 146, 135);
+  transform:translate(-50%, -52%)
+}
+.image-overlay-mobile {
+  opacity: 1;
+  text-shadow: 0px 0px 16px rgb(241, 146, 135);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 25%;
+ 
+}
+
+.column img {
+
+  vertical-align: middle;
+}
+#sesja-ciazowa-zdjecie-1 {
+  width:202%;
+  height:558px;
+  max-width: none;
+}
+@media screen and (max-width: 1280px) {
+  #sesja-ciazowa-zdjecie-1 {
+    width:auto;
+    height:auto;
+  }
+ }
+ .gallery-photo {
+  width:202%;
+  height:553px;
+  max-width: none;
+  object-fit: cover;
+ }
+ @media screen and (max-width: 1280px) {
+  .gallery-photo {
+    width:auto;
+    height:auto;
+  }
+ }
