@@ -1,3 +1,4 @@
+
 .home-page-img {
   box-shadow: -7px 4px 40px 20px rgba(0, 0, 0, 0.25);
 }
@@ -178,3 +179,6 @@ p {
     height:auto;
   }
  }
+.fullHeightContainer {
+  height: calc(100vh - 60px);
+}

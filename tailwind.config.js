@@ -1,7 +1,7 @@
 
 module.exports = {
   content: [
-  "./html/mainpage/*.html", "./html/subpages/*.html", "./html/gallery-subpages/*.html"
+ "./Kontakt/*.html", "./Voucher/*.html", , "./Oferta/*.html", "./Recenzje/*.html", "./Galeria/*.html", "./*.html", "./Galeria/*/*.html"
 ],
   theme: {
     extend: {
